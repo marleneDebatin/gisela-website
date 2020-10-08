@@ -1,0 +1,25 @@
+.row {
+    padding-top: 30px;
+    .cover {
+        img {
+            height: 80vh;
+            width: auto;;
+        }
+        display: flex;
+        justify-content: center;
+    }
+    .subtitle {
+        color: gray;
+        font-size: 23px;
+        font-weight: 400;
+    }
+    p {
+        margin-bottom: 8px;
+        text-align: justify;
+    }
+    button {
+        width: 100%;
+        margin: 0px 5px;
+    }
+
+}
