@@ -1,4 +1,4 @@
-# hello-world
+# Giselas Website
 
 ## Project setup
 ```
@@ -17,3 +17,12 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# TODO
+
+- Favicon and Title
+- Impressum
+- Kontakt
+- Biografie
+- Homepage
+- Click on Images and go to detail site
