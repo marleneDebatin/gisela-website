@@ -26,3 +26,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Biografie
 - Homepage
 - Click on Images and go to detail site
+- Make images exact size

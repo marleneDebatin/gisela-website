@@ -1,10 +1,6 @@
 <template>
   <div class="kunst">
-    <div class="page col-12">
-        <div class="container">
-			<Gallerie v-for="elem in this.art" v-bind:key='elem.title' v-bind:title='elem.title' v-bind:images='elem.images'></Gallerie>
-	    </div>
-    </div>
+		<Gallerie v-for="elem in this.art" v-bind:key='elem.title' v-bind:title='elem.title' v-bind:images='elem.images' v-bind:id='elem.title'></Gallerie>
   </div>
 </template>
 
@@ -24,13 +20,13 @@ export default {
 					images : [
 						{
 							src : require('../assets/Eulen.jpg'),
-							description : 'Text 1',
-							size : '0 cm'
+							description : 'Uhus entdecken ein Schloss',
+							size : '70 x 70 cm'
 						},
 						{
 							src : require('../assets/Fledermaus.jpg'),
-							description : 'Text 2',
-							size : '0 cm'
+							description : 'Fledermäuse in der Abtei',
+							size : '70 x 70 cm'
 						},
 						{
 							src : require('../assets/Eichhörnchen.jpg'),
@@ -49,23 +45,23 @@ export default {
 					images : [
 						{
 							src : require('../assets/Keramik Kater.jpg'),
-							description : 'Text 1',
-							size : '0 cm'
+							description : 'Herzog von Orléans',
+							size : '37 cm'
 						},
 						{
 							src : require('../assets/Keramik Maus.jpg'),
-							description : 'Text 2',
-							size : '0 cm'
+							description : 'Katzenjäger',
+							size : '35 cm'
 						},
 						{
 							src : require('../assets/Keramik Nashorn.jpg'),
-							description : 'Text 3',
-							size : '0 cm'
+							description : 'Samsara',
+							size : '33 cm'
 						},
 						{
 							src : require('../assets/Keramik Pfau.jpg'),
-							description : 'Text 4',
-							size : '0 cm'
+							description : 'Domingo',
+							size : '36 cm'
 						}
 					]
 				},
@@ -74,23 +70,23 @@ export default {
 					images : [
 						{
 							src : require('../assets/HGB-Flora.jpg'),
-							description : 'Text 1',
-							size : '0 cm'
+							description : 'Flora weckt ihre Kinder',
+							size : '30 x 40 cm'
 						},
 						{
 							src : require('../assets/HGB-Intercity.jpg'),
-							description : 'Text 2',
-							size : '0 cm'
+							description : 'Begegnung im Intercity',
+							size : '30 x 40 cm'
 						},
 						{
 							src : require('../assets/HGB-Schwan.jpg'),
-							description : 'Text 3',
-							size : '0 cm'
+							description : 'Schwan von Fürstenberg',
+							size : '30 x 40 cm'
 						},
 						{
 							src : require('../assets/HGB-Stier.jpg'),
-							description : 'Text 4',
-							size : '0 cm'
+							description : 'Stier vor dem Rosentempel',
+							size : '30 x 40 cm'
 						}
 					]
 				},

@@ -3,16 +3,16 @@
     <div class="page col-12">
         <div class="container">
             <div class="row">
-                <div class="cover col-6">
+                <div class="cover col-5">
                     <img src="../assets//Wassilli Cover.jpg">
                 </div>
-                <div class="description col-6">
+                <div class="description col-7">
                     <h3 class="subtitle">
                         Historischer Roman
                     </h3>
-                    <h2>
+                    <h1>
                         Kater Wassili und Peter der Große
-                    </h2>
+                    </h1>
                     <div class="blurb">
                         <p>
                             Der Legende nach brachte Peter der Große den Kater Wassili von Westeuropa nach Russland mit. Der Kater erzählt aus dem Leben Peters in Holland, England, Österreich und Russland in der Zeit von 1697 bis 1718.
@@ -33,7 +33,7 @@
                             Er reist mit Zar Peter zu den eroberten Gebieten an der Ostsee und erlebt die Entstehung der Stadt St. Petersburg. Auf den Segelschiffen des Zaren dient er lange als Schiffskater. Später erhält er die Aufgabe, die Kunstsammlungen Peters vor Mäusen, Ratten und Dieben zu schützen.
                         </p>
                     </div>
-                    <div class="row">
+                    <div class="row buttons">
                         <div class="col">
                             <button type="button" class="btn btn-outline-dark">Auf Amazon kaufen</button>
                         </div>
@@ -80,6 +80,17 @@ p {
 button {
     width: 100%;
     margin: 0px 5px;
+}
+.buttons {
+    margin-bottom: 3rem;
+}
+.description {
+    padding: 0px 40px;
+}
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
 }
 
 </style>
