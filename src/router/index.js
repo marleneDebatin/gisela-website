@@ -4,6 +4,7 @@ import BootstrapVue from 'bootstrap-vue'
 import Home from '../views/Home.vue'
 import Kunst from '../views/Kunst.vue'
 import Literatur from '../views/Literatur.vue'
+import Kontakt from '../views/Kontakt.vue'
 
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
@@ -26,6 +27,11 @@ const routes = [
     path: '/Literatur',
     name: 'Literatur',
     component: Literatur
+  },
+  {
+    path: '/Kontakt',
+    name: 'Kontakt',
+    component: Kontakt
   }
 ]
 

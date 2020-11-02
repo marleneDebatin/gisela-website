@@ -1,7 +1,31 @@
 <template>
-  <div class="kunst">
+  <div class="kunst col-8 offset-2">
 		<Gallerie v-for="elem in this.art" v-bind:key='elem.title' v-bind:title='elem.title' v-bind:images='elem.images' v-bind:id='elem.title'></Gallerie>
+		
+		<div class="ausstellungen">
+			<h1>
+				Vergangene Ausstellungen
+			</h1>
+			<ul class="austellungen-liste">
+				<li>Parktheater Bensheim</li>
+				<li>Galerie Weng Mannheim/Deidesheim</li>
+				<li>Galerie No. 48, Mainz</li>
+				<li>Galerie Walpenreute, Stuttgart</li>
+				<li>Zentrum Pfungstadt</li>
+				<li>Altes Rathaus Jugenheim</li>
+				<li>Galerie Eichenhof, Bermatingen/Bodensee</li>
+				<li>Galerie Sonne, Jugenheim</li>
+				<li>Altes Rathaus Schifferstadt</li>
+				<li>Museum der Porzellanmanufaktur Fürstenberg</li>
+				<li>Prinz Reuss, Wiesbaden</li>
+				<li>Galerie Weiß, Starnberg</li>
+				<li>Atelier-Galerie Tourette-sur-Loup (Alpes-Maritimes), Frankreich</li>
+				<li>Galerie Hell, München</li>
+			</ul>
+			Spendausstellungen zugunsten <i>Bund der Katzenfreunde, München</i> und <i>Pro Animale, Schweinfurt</i>
+		</div>
   </div>
+
 </template>
 
 <script>
@@ -96,3 +120,20 @@ export default {
   
 }
 </script>
+
+<style scoped>
+ul {
+	list-style-type: none;
+}
+li {
+	padding-bottom: 3px;
+}
+.ausstellungen {
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+.kunst {
+	margin-top: 0.5rem;
+}
+</style>

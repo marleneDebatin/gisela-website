@@ -27,3 +27,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Homepage
 - Click on Images and go to detail site
 - Make images exact size
+- make responsive (especially navbar)
